@@ -25,6 +25,7 @@ import { DataTablesModule } from 'angular-datatables';
 import { LayoutModule } from '../../layout/layout.module';
 import { ObjectHeaderComponent } from './components/object-header/object-header.component';
 import { ObjectQrComponent } from './components/object-qr/object-qr.component';
+import { ObjectNetworkGraphComponent } from './components/object-network-graph/object-network-graph.component';
 import { ObjectSummaryComponent } from './components/object-summary/object-summary.component';
 import { ObjectExternalsComponent } from './components/object-externals/object-externals.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -76,6 +77,7 @@ import { ObjectTableHeadComponent } from './components/object-table-head/object-
     ObjectViewComponent,
     ObjectHeaderComponent,
     ObjectQrComponent,
+    ObjectNetworkGraphComponent,
     ObjectSummaryComponent,
     ObjectExternalsComponent,
     ObjectAddComponent,
